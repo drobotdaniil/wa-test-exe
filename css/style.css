@@ -243,6 +243,9 @@ li a img{
 /*end header*/
 
 /*bg-container*/
+.bg-header{
+    max-height: 550px;
+}
 .bg-image,.bg-image2,.bg-image3{
     background: url(../img/main-img.jpg) no-repeat center;
     background-size: cover;
@@ -320,6 +323,9 @@ li a img{
     min-height: 100px;
 }
 @media (min-width: 600px){
+    .bg-header{
+        max-height: 650px;
+    }
     .bg-image,.bg-image2,.bg-image3{
         padding-top: 430px;
         min-height: 650px;
@@ -342,6 +348,9 @@ li a img{
     
 }
 @media (min-width: 992px){
+    .bg-header{
+        max-height: 735px;
+    }
     .bg-image,.bg-image2,.bg-image3{
     padding-top: 330px;
     min-height: 735px;
@@ -367,7 +376,7 @@ li a img{
 
 /*main container*/
 .main-container{
-    margin-top: 0px;
+    margin-top: 35px;
 }
 .tours-list{
 
@@ -383,13 +392,14 @@ li a img{
     color:#fbd341;
 }
 @media (min-width:600px){
+
     .tours-list{
         font-size: 17px;
     } 
 }
 @media (min-width: 992px){
     .main-container{
-        margin-top: 58px;
+        margin-top: 72px;
     }
     .tours-list{
         font-size: 20px;
