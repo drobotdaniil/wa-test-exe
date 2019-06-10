@@ -981,8 +981,8 @@ input::placeholder{
     margin-right: 0px;
     display: inline-block;
 }
-.fb_inst_item a:first-child{
-    margin-right: 50px;
+.space2{
+    margin-right: 20px;
 }
 @media (min-width: 740px){
     .footer-wrapper{
@@ -996,6 +996,12 @@ input::placeholder{
     .navigation{
         margin-right: 50px;
     }
+    .contacts{
+        text-align: left;
+    }
+    /* .space2{
+        margin-right: 0px;
+    } */
 }
 @media (min-width: 992px){
     .footer{
@@ -1027,8 +1033,6 @@ input::placeholder{
     .fb_inst_item{
         margin-right: 25px;
     }
-    .fb_inst_item a:first-child{
-        margin-right: 0px;
-    }
+
 }
 /*end footer*/
