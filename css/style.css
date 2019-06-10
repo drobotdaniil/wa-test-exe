@@ -976,14 +976,22 @@ input::placeholder{
 .space{
     margin-right: 8px;
 }
+.fb_inst_item_wrapper{
+    display: flex;
+    justify-content: center;
+}
 .fb_inst_item{
     margin-top: 20px;
-    margin-right: 0px;
     display: inline-block;
 }
-.space2{
+.fb_inst_item:first-child{
+    
     margin-right: 20px;
+
 }
+/* .space2{
+    margin-right: 20px;
+} */
 @media (min-width: 740px){
     .footer-wrapper{
 
@@ -1002,6 +1010,9 @@ input::placeholder{
     /* .space2{
         margin-right: 0px;
     } */
+    .fb_inst_item_wrapper{
+        display: block;
+    }
 }
 @media (min-width: 992px){
     .footer{
@@ -1030,6 +1041,7 @@ input::placeholder{
 
         margin-right: 115px;
     }
+
     .fb_inst_item{
         margin-right: 25px;
     }
